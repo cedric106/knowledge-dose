@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Davis App",
+    "description": "The most popular movies and TV shows",
+    "version": "1",
+    "author": "Davis",
+    "browser_auction": {
+        "default_icon": "tab-icon.png",
+        "default_title": "Have a good day!"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permission": [
+        "activeTab"
+    ]
+}
